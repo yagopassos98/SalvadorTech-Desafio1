@@ -1,0 +1,61 @@
+@font-face{
+    src:url(/Assets/Fonts/GeistMono-Bold.otf);
+    font-family: Geist Mono Bold;
+}
+@font-face{
+    src:url(/Assets/Fonts/GeistMono-Regular.otf);
+    font-family: Geist Mono Regular;
+}
+body{
+    background-color: rgb(173, 216, 230);
+}
+ul li{
+    list-style-type: none;
+    font-size: 15px;
+}
+#cabeçalho{
+    position: relative;
+    top: 0;
+    font-size: 18px;
+    font-family: Geist Mono Bold, verdana, arial;
+}
+.contAprendido a:link{
+    transition: 0.15s ease-in-out;
+    text-decoration: none;
+}
+.contAprendido a:visited{
+    color: black;
+}
+.contAprendido a:hover{
+    color: orangered;
+}
+section, article, footer{
+    font-family: Geist Mono Regular, verdana, arial;
+}
+article, section p{
+    font-size: 15px;
+}
+.contAprender a:link{
+    transition: 0.15s ease-in-out;
+    text-decoration: none;
+}
+.contAprender a:visited{
+    color: black;
+}
+.contAprender a:hover{
+    color: orangered;
+}
+.contAprender a:active{
+    color: white;
+}
+
+.fa-brands.fa-github.fa-3x{
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.fa-brands.fa-github.fa-3x:hover{
+    color: orangered;
+}
+.fa-brands.fa-github.fa-3x:active{
+    color: white;
+}
